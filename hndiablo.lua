@@ -75,7 +75,7 @@ RunService.RenderStepped:Connect(function()
         return math.floor(Stats.Network.ServerStatsItem["Data Ping"]:GetValue())
     end)
     local ping = success and pingVal or 0
-    WmText.Text = "  HnDiabloCircus - RiseClient  |  " .. currentFPS .. " FPS  |  " .. ping .. "ms"
+    WmText.Text = "RiseClient  |  " .. currentFPS .. " FPS  |  " .. ping .. "ms"
 end)
 
 
